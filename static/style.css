@@ -1,0 +1,46 @@
+body {
+  background-color: #f7f9fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  margin-top: 60px;
+}
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.btn {
+  border-radius: 8px;
+  font-weight: bold;
+}
+.alert {
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 8px;
+}
+a {
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.text-center a.btn {
+  margin: 10px;
+}
